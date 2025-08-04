@@ -80,27 +80,6 @@ inspect($('h1'))
 copy(document.title)
 ```
 
-### Exercise 4: Debugging with Console
-```javascript
-// Time how long something takes
-console.time('page-load-check');
-// ... do something ...
-console.timeEnd('page-load-check');
-
-// Create a table from data
-console.table([
-  {name: 'Chrome', version: '122'},
-  {name: 'Firefox', version: '123'},
-  {name: 'Safari', version: '17'}
-]);
-
-// Group related logs
-console.group('User Data');
-console.log('Name: John');
-console.log('Email: john@example.com');
-console.groupEnd();
-```
-
 ---
 
 ## Part 3: Elements Tab - Live Editing (10 minutes)
@@ -118,12 +97,7 @@ console.groupEnd();
 3. Add: `color: red; font-size: 30px;`
 4. Watch the page change in real-time!
 
-### Exercise 7: Find Elements Fast
-1. Press `Ctrl+F` (or `Cmd+F`) while in Elements tab
-2. Search for: `<img`
-3. See all images highlighted
-4. Try searching for CSS classes: `.container`
-
+ 
 ---
 
 ## Part 4: Network Tab - Understanding Traffic (15 minutes)
@@ -170,22 +144,11 @@ Try these filters in the Network tab:
 3. See all cookies stored
 4. Try deleting a cookie (right-click → Delete)
 
-### Exercise 14: Check Storage Usage
-1. In Application tab, click on "Storage" in the left sidebar
-2. See how much space the website is using
-3. You can clear storage for testing
-
+ 
 ---
 
 ## Part 6: Real Troubleshooting Scenarios (15 minutes)
 
-### Scenario 1: "The page won't load"
-**Steps to investigate:**
-1. Open Network tab
-2. Refresh page
-3. Look for red (failed) requests
-4. Check Console for JavaScript errors
-5. Look for 404s, 500s, or timeout errors
 
 ### Scenario 2: "The page is really slow"
 **Steps to investigate:**
